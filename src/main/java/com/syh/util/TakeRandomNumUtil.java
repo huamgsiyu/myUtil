@@ -1,7 +1,5 @@
 package com.syh.util;
 
-import org.junit.Test;
-
 /**
  * TakeRandomNumUtil
  *  only apply 1-9 digit verification code
