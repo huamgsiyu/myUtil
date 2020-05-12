@@ -1,5 +1,7 @@
 package com.syh.util;
 
+import java.util.Date;
+
 /**
  * DateFormatUtil
  *
@@ -133,6 +135,8 @@ public enum DateFormatUtil {
     YYYY_MM_DD_HH_MM_SS_SSS_Chinese("yyyy年MM月dd日HH时mm分ss秒sss毫秒");
 
     public String format;
+
+    DateFormatUtil(){}
 
     DateFormatUtil(String format) {
         this.format = format;
