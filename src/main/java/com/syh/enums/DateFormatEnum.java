@@ -1,4 +1,4 @@
-package com.syh.util;
+package com.syh.enums;
 
 import java.util.Date;
 
@@ -8,7 +8,7 @@ import java.util.Date;
  * @author HSY
  * @since 2020/05/12 12:59
  */
-public enum DateFormatUtil {
+public enum DateFormatEnum {
     /**
      * 年份，例如：2020
      */
@@ -132,13 +132,17 @@ public enum DateFormatUtil {
     /**
      * 年月日，例如：2020年05月12日13时14分10秒150毫秒
      */
-    YYYY_MM_DD_HH_MM_SS_SSS_Chinese("yyyy年MM月dd日HH时mm分ss秒sss毫秒");
+    YYYY_MM_DD_HH_MM_SS_SSS_Chinese("yyyy年MM月dd日HH时mm分ss秒sss毫秒"),
+    /**
+     * 星期几，例如：星期一
+     */
+    EEEE("EEEE");
 
     public String format;
 
-    DateFormatUtil(){}
+    DateFormatEnum(){}
 
-    DateFormatUtil(String format) {
+    DateFormatEnum(String format) {
         this.format = format;
     }
 }
