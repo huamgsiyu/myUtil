@@ -67,7 +67,7 @@ public class TakeLastWeekDateUtil {
     private static Integer getDay () {
         Date now = new Date();
         /* 获取当天是周几 */
-        String week = SimpleDateFormatUtil.dateToString(DateFormatEnum.EEEE.format, now);
+        String week = SimpleDateFormatUtil.dateToString(DateFormatEnum.WEEK.format, now);
         /* 获取今天距离上周过去了多少天 */
         return WeekEnum.getDay(week);
     }

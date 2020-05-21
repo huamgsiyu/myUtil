@@ -136,7 +136,12 @@ public enum DateFormatEnum {
     /**
      * 星期几，例如：星期一
      */
-    EEEE("EEEE");
+    WEEK("EEEE"),
+
+    /**
+     * 时分，例如：17:55
+     */
+    MM_SS("HH:mm");
 
     public String format;
 

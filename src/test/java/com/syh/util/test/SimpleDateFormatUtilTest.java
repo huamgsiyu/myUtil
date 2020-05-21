@@ -19,7 +19,7 @@ import java.util.List;
 public class SimpleDateFormatUtilTest {
     public static void main(String[] args) {
         Date now = new Date();
-        String week = SimpleDateFormatUtil.dateToString(DateFormatEnum.EEEE.format, now);
+        String week = SimpleDateFormatUtil.dateToString(DateFormatEnum.WEEK.format, now);
         Integer day = WeekEnum.getDay(week);
         Calendar calendar = Calendar.getInstance();
 
