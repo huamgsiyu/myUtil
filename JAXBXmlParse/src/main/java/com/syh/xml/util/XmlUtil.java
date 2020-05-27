@@ -12,6 +12,8 @@ import java.io.StringWriter;
  *
  * @author HSY
  * @since 2020/05/27 10:21
+ *
+ * 工具类来源：https://blog.csdn.net/github_39557053/article/details/102728822
  */
 public class XmlUtil {
 
