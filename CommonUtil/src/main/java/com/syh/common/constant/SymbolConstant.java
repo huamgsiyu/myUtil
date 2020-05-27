@@ -1,4 +1,4 @@
-package com.syh.constant;
+package com.syh.common.constant;
 
 /**
  * SymbolConstant

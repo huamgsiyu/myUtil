@@ -1,6 +1,4 @@
-package com.syh.util;
-
-import org.junit.Test;
+package com.syh.common.util;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

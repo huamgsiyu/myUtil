@@ -1,4 +1,4 @@
-package com.syh.util;
+package com.syh.common.util;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

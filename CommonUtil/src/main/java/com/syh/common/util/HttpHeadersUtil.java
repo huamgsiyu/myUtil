@@ -1,13 +1,9 @@
-package com.syh.util;
-
+package com.syh.common.util;
 
 
 import com.google.common.collect.Lists;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * HttpHeadersUtil

@@ -1,8 +1,9 @@
-package com.syh.util;
+package com.syh.common.util;
 
 
-import com.syh.enums.DateFormatEnum;
-import com.syh.enums.WeekEnum;
+
+import com.syh.common.enums.DateFormatEnum;
+import com.syh.common.enums.WeekEnum;
 
 import java.util.ArrayList;
 import java.util.Calendar;

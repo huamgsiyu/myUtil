@@ -1,4 +1,4 @@
-package com.syh.util;
+package com.syh.common.util;
 
 /**
  * TakeRandomNumUtil

@@ -1,4 +1,4 @@
-package com.syh.enums;
+package com.syh.common.enums;
 
 /**
  * WeekEnum

@@ -1,6 +1,4 @@
-package com.syh.enums;
-
-import java.util.Date;
+package com.syh.common.enums;
 
 /**
  * DateFormatUtil

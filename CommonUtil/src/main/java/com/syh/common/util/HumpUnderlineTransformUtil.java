@@ -1,6 +1,7 @@
-package com.syh.util;
+package com.syh.common.util;
 
-import com.syh.constant.SymbolConstant;
+
+import com.syh.common.constant.SymbolConstant;
 
 /**
  * HumpUnderlineTransformUtil
