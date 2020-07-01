@@ -3,7 +3,6 @@ package com.syh.common.threadPool;
 import com.syh.common.util.SerializeUtil;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 import org.junit.Test;
 
 import java.io.Serializable;
