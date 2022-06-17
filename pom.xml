@@ -28,7 +28,7 @@
         <swagger2.version>2.9.2</swagger2.version>
         <hutool.version>4.5.3</hutool.version>
         <junit.version>4.12</junit.version>
-        <fastjson.version>1.2.56</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
     </properties>
 
     <groupId>com.syh.util</groupId>
